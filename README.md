@@ -1,7 +1,6 @@
 # botzival
-botzival is my bot.
+A Discord bot for my server.
 
-This is a bot made using the Discord.NET library, as well as a library named Victoria.
+Mostly for fun, thought it might be a fun programming challenge.
 
-As of right now, audio commands are disabled.
-"# botzival" 
+Music commands are disabled because I have to debug them lol
