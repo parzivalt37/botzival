@@ -17,7 +17,7 @@ namespace botzival
 
         static Config()
         {
-            DiscordToken = System.IO.File.ReadAllText(@"C:\Users\parzival3719\Desktop\token.txt"); 
+            DiscordToken = System.IO.File.ReadAllText(null); 
         }
     }
 }
