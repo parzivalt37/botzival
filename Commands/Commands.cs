@@ -67,7 +67,6 @@ namespace botzival.Commands
             for (int i = 0; i < 10; i++)
             {
                 await Context.Channel.SendMessageAsync(user.Mention);
-                await Task.Delay(1000);
             }
         }
 
@@ -116,6 +115,7 @@ namespace botzival.Commands
         {
             await Context.Channel.SendMessageAsync("Music commands are temporarily disabled until further notice");
         }*/
+
 
         //mod command help
         [Command("modhelp")]

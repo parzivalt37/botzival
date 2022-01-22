@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using Discord;
 using System.IO;
 using System.Net;
@@ -16,7 +16,7 @@ namespace botzival.Services
 
         public static readonly Random getRandom = new Random();
         //random number
-        
+
         public static int GetRandomNumber(int min, int max)
         {
             lock (getRandom) { return getRandom.Next(min, max); }
